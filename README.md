@@ -1,6 +1,6 @@
-# Bayes-Kit
+# Scorio
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.11651-b31b1b.svg)](https://arxiv.org/abs/2504.11651)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.04265-b31b1b.svg)](https://arxiv.org/abs/2510.04265)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Julia 1.6+](https://img.shields.io/badge/julia-1.6+-9558B2.svg)](https://julialang.org/downloads/)
@@ -11,8 +11,8 @@
 
 This repository contains two packages:
 
-1. **`scorio`** (Python) - Python implementation
-2. **`Scorio.jl`** (Julia) - Julia implementation
+1. **`scorio`** - Python implementation
+2. **`Scorio.jl`** - Julia implementation
 
 ---
 
@@ -74,7 +74,7 @@ using Pkg
 # From local development
 Pkg.develop(path="./julia/Scorio.jl")
 
-# Or from Julia General Registry (comming soon)
+# Or from Julia General Registry
 # Pkg.add("Scorio")
 ```
 
@@ -148,19 +148,19 @@ Bayesian performance evaluation with uncertainty quantification using the Bayes@
 
 ## 📚 Documentation
 
-Full documentation is available at: [https://mohsenhariri.github.io/bayes-kit/](https://mohsenhariri.github.io/bayes-kit/)
+Full documentation is available at: [https://mohsenhariri.github.io/scorio/](https://mohsenhariri.github.io/scorio/)
 
 ---
 
 ## 📄 Citation
 
-If you use Bayes-Kit in your research, please cite:
+If you use Scorio in your research, please cite:
 
 ```bibtex
-@article{bayeskit2025,
+@article{hariri2025don,
   title={Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation},
-  author={Hariri, Mohsen and Samandar, Amirhossein},
-  journal={arXiv preprint arXiv:2504.11651},
+  author={Hariri, Mohsen and Samandar, Amirhossein and Hinczewski, Michael and Chaudhary, Vipin},
+  journal={arXiv preprint arXiv:2510.04265},
   year={2025}
 }
 ```
@@ -174,9 +174,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Homepage**: [https://mohsenhariri.github.io/bayes-kit/](https://mohsenhariri.github.io/bayes-kit/)
-- **Repository**: [https://github.com/mohsenhariri/bayes-kit](https://github.com/mohsenhariri/bayes-kit)
-- **Issues**: [https://github.com/mohsenhariri/bayes-kit/issues](https://github.com/mohsenhariri/bayes-kit/issues)
-- **Paper**: [https://arxiv.org/abs/2504.11651](https://arxiv.org/abs/2504.11651)
+- **Homepage**: [https://mohsenhariri.github.io/scorio/](https://mohsenhariri.github.io/scorio/)
+- **Repository**: [https://github.com/mohsenhariri/scorio](https://github.com/mohsenhariri/scorio)
+- **Issues**: [https://github.com/mohsenhariri/scorio/issues](https://github.com/mohsenhariri/scorio/issues)
+- **Paper**: [https://arxiv.org/abs/2510.04265](https://arxiv.org/abs/2510.04265)
 
 

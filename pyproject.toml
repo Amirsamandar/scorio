@@ -9,7 +9,7 @@ authors = [
     { name = "Amirhossein Samandar", email = "amirhossein.samandar@case.edu" },
 ]
 license = "MIT"
-readme = { file = "README.md", content-type = "text/markdown" }
+readme = { file = "README_PyPI.md", content-type = "text/markdown" }
 description = "Bayesian evaluation and ranking toolkit"
 keywords = ["bayesian", "statistics", "ranking", "evaluation", "machine learning", "large language models"]
 classifiers = [
@@ -30,13 +30,13 @@ classifiers = [
 
 requires-python = ">=3.9,<3.14"
 dynamic = ["version"]
-dependencies = ["numpy"]
+dependencies = ["numpy", "scipy"]
 
 [project.urls]
-Homepage = "https://mohsenhariri.github.io/bayes-kit/"
-Repository = "https://github.com/mohsenhariri/bayes-kit"
-Issues = "https://github.com/mohsenhariri/bayes-kit/issues"
-Documentation = "https://mohsenhariri.github.io/bayes-kit/"
+Homepage = "https://mohsenhariri.github.io/scorio/"
+Repository = "https://github.com/mohsenhariri/scorio"
+Issues = "https://github.com/mohsenhariri/scorio/issues"
+Documentation = "https://mohsenhariri.github.io/scorio/"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "black>=24.0", "isort>=5.0", "mypy>=1.0"]

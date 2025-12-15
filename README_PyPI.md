@@ -1,8 +1,8 @@
 # scorio
 
-`scorio` implements the Bayes@N framework introduced in [Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation](https://arxiv.org/abs/2504.11651)
+`scorio` implements the Bayes@N framework introduced in [Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation](https://arxiv.org/abs/2510.04265)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.11651-b31b1b.svg)](https://arxiv.org/abs/2504.11651)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.04265-b31b1b.svg)](https://arxiv.org/abs/2510.04265)
 [![PyPI version](https://img.shields.io/pypi/v/scorio.svg)](https://pypi.org/project/scorio/)
 [![Python versions](https://img.shields.io/pypi/pyversions/scorio.svg)](https://pypi.org/project/scorio/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
@@ -76,9 +76,9 @@ If you use `scorio` or Bayes@N, please cite:
 @article{hariri2025dontpassk,
   title   = {Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation},
   author  = {Hariri, Mohsen and Samandar, Amirhossein and Hinczewski, Michael and Chaudhary, Vipin},
-  journal={arXiv preprint arXiv:2504.11651},
+  journal={arXiv preprint arXiv:2510.04265},
   year    = {2025},
-  url     = {https://mohsenhariri.github.io/bayes-kit/}
+  url     = {https://mohsenhariri.github.io/scorio/}
 }
 ```
 
@@ -90,5 +90,5 @@ MIT License. See the `LICENSE` file for details.
 
 ## Support
 
-- Documentation and updates: https://mohsenhariri.github.io/bayes-kit/
-- Issues and feature requests: https://github.com/mohsenhariri/bayes-kit/issues
+- Documentation and updates: https://mohsenhariri.github.io/scorio/
+- Issues and feature requests: https://github.com/mohsenhariri/scorio/issues
