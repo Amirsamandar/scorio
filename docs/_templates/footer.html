@@ -1,0 +1,24 @@
+{# Custom footer for sphinx_rtd_theme #}
+{% extends "!footer.html" %}
+
+{%- block extrafooter %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var contentInfo = document.querySelectorAll('div[role="contentinfo"] p');
+    contentInfo.forEach(function(p) {
+      if (p.innerHTML.includes('Mohsen Hariri') && !p.innerHTML.includes('<a')) {
+        p.innerHTML = p.innerHTML.replace(
+          'Mohsen Hariri',
+          '<a href="https://mohsenhariri.github.io/" target="_blank" style="color: #2980B9;">Mohsen Hariri</a>'
+        );
+      }
+      if (p.innerHTML.includes('Amirhossein Samandar') && p.innerHTML.split('<a').length < 3) {
+        p.innerHTML = p.innerHTML.replace(
+          'Amirhossein Samandar',
+          '<a href="https://amirsamandar.github.io/" target="_blank" style="color: #2980B9;">Amirhossein Samandar</a>'
+        );
+      }
+    });
+  });
+</script>
+{%- endblock %}
