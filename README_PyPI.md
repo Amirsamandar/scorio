@@ -6,6 +6,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/scorio.svg)](https://pypi.org/project/scorio/)
 [![Python versions](https://img.shields.io/pypi/pyversions/scorio.svg)](https://pypi.org/project/scorio/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
+[![Documentation](https://readthedocs.org/projects/scorio/badge/?version=latest)](https://scorio.readthedocs.io/)
 
 ---
 
@@ -78,7 +79,7 @@ If you use `scorio` or Bayes@N, please cite:
   author  = {Hariri, Mohsen and Samandar, Amirhossein and Hinczewski, Michael and Chaudhary, Vipin},
   journal={arXiv preprint arXiv:2510.04265},
   year    = {2025},
-  url     = {https://mohsenhariri.github.io/scorio/}
+  url     = {https://scorio.readthedocs.io/}
 }
 ```
 
@@ -90,5 +91,5 @@ MIT License. See the `LICENSE` file for details.
 
 ## Support
 
-- Documentation and updates: https://mohsenhariri.github.io/scorio/
+- Documentation: https://scorio.readthedocs.io/
 - Issues and feature requests: https://github.com/mohsenhariri/scorio/issues

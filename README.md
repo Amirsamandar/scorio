@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Julia 1.6+](https://img.shields.io/badge/julia-1.6+-9558B2.svg)](https://julialang.org/downloads/)
+[![Documentation](https://readthedocs.org/projects/scorio/badge/?version=latest)](https://scorio.readthedocs.io/)
 
 ---
 
@@ -148,7 +149,7 @@ Bayesian performance evaluation with uncertainty quantification using the Bayes@
 
 ## 📚 Documentation
 
-Full documentation is available at: [https://mohsenhariri.github.io/scorio/](https://mohsenhariri.github.io/scorio/)
+Full documentation is available at: [https://scorio.readthedocs.io/](https://scorio.readthedocs.io/)
 
 ---
 
@@ -174,7 +175,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Homepage**: [https://mohsenhariri.github.io/scorio/](https://mohsenhariri.github.io/scorio/)
+- **Documentation**: [https://scorio.readthedocs.io/](https://scorio.readthedocs.io/)
 - **Repository**: [https://github.com/mohsenhariri/scorio](https://github.com/mohsenhariri/scorio)
 - **Issues**: [https://github.com/mohsenhariri/scorio/issues](https://github.com/mohsenhariri/scorio/issues)
 - **Paper**: [https://arxiv.org/abs/2510.04265](https://arxiv.org/abs/2510.04265)
